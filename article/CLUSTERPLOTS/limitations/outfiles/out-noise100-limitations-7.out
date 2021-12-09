@@ -1,0 +1,6148 @@
+Starting job 4536994 on c5-38 at Tue Dec 7 15:50:42 CET 2021
+
+The name of the job is: limit
+The job ID is 4536994
+We are running from this directory: /cluster/home/evenmm/mixtures_data/Mixture_project_documents/Matlab_code/Even
+We are running from this directory: /cluster/home/evenmm/mixtures_data/Mixture_project_documents/Matlab_code/Even
+The job was run on these nodes: c5-38
+Number of nodes: 1
+We are using 1 cores
+We are using 1 cores per node
+
+  1) StdEnv
+
+Currently Loaded Modules:
+  1) StdEnv (S)   2) MATLAB/2020a
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Opening log file:  /cluster/home/evenmm/java.log.47084
+
+E_values =
+
+    0.0001    0.0002    0.0005    0.0010    0.0022    0.0046    0.0100
+
+
+cell_line_1 =
+
+    0.0300    0.3000    0.0001    3.0000
+
+
+cell_line_2 =
+
+    0.0300    0.4000    0.0002    3.0000
+
+
+cell_line_3 =
+
+    0.0300    0.4000    0.0005    3.0000
+
+
+cell_line_4 =
+
+    0.0300    0.4000    0.0010    3.0000
+
+
+cell_line_5 =
+
+    0.0300    0.4000    0.0022    3.0000
+
+
+cell_line_6 =
+
+    0.0300    0.4000    0.0046    3.0000
+
+
+cell_line_7 =
+
+    0.0300    0.4000    0.0100    3.0000
+
+
+base_num_optim =
+
+        1000
+
+
+caseno =
+
+     7
+
+
+N_true_populations =
+
+     2
+
+
+Noise =
+
+    50
+
+
+max_no_populations =
+
+     4
+
+
+seednr_1 =
+
+    45
+
+
+lower_limit_mixparam =
+
+     0
+
+
+lower_limit_E_ratio =
+
+     1
+
+
+USE_E_THRESHOLD =
+
+  logical
+
+   0
+
+
+INFER_SIGMA =
+
+  logical
+
+   1
+
+
+USE_TWO_NOISE_LEVELS =
+
+  logical
+
+   1
+
+
+PLOT_DATA =
+
+  logical
+
+   0
+
+
+PLOT_FINAL_FIT =
+
+  logical
+
+   1
+
+
+save_location =
+
+    '/cluster/projects/nn9705k/evenmm/article/limitations/'
+
+
+E_middle =
+
+    0.0100
+
+
+sensitive_cell_line =
+
+    0.0300    0.3000    0.0001    3.0000
+
+
+middle_cell_line =
+
+    0.0300    0.4000    0.0100    3.0000
+
+
+resistant_cell_line =
+
+    0.0300    0.5000    0.1000    3.0000
+
+
+E_values =
+
+    0.0001    0.0002    0.0005    0.0010    0.0022    0.0046    0.0100
+
+
+cell_line_1 =
+
+    0.0300    0.3000    0.0001    3.0000
+
+
+cell_line_2 =
+
+    0.0300    0.4000    0.0002    3.0000
+
+
+cell_line_3 =
+
+    0.0300    0.5000    0.0005    3.0000
+
+
+cell_line_4 =
+
+    0.0300    0.3000    0.0010    3.0000
+
+
+cell_line_5 =
+
+    0.0300    0.4000    0.0022    3.0000
+
+
+cell_line_6 =
+
+    0.0300    0.5000    0.0046    3.0000
+
+
+cell_line_7 =
+
+    0.0300    0.3000    0.0100    3.0000
+
+
+Conc =
+
+  Columns 1 through 7
+
+         0    0.0000    0.0000    0.0000    0.0000    0.0001    0.0002
+
+  Columns 8 through 14
+
+    0.0005    0.0011    0.0023    0.0050    0.0108    0.0232    0.0500
+
+  Columns 15 through 17
+
+    0.1077    0.2321    0.5000
+
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0300
+
+
+GR_maxconc =
+
+   -1.1740
+
+ 
+eqn =
+ 
+- 2*log(7/(10*(1000000000000*x^3 + 1)) + 3/10) - 135555286821060719/112589990684262400 == 0
+ 
+ 
+foo =
+ 
+log(7/(10*(1000000000000*x^3 + 1)) + 3/10) == -135555286821060719/225179981368524800
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00012222117583111013838054602769092
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0300
+
+
+GR_maxconc =
+
+   -0.8863
+
+ 
+eqn =
+ 
+- 2*log(3/(5*((784637716923335095479473677900958302012794430558004314112*x^3)/7846377169233359340928224738967918033662228973 + 1)) + 2/5) - 51582582476138147/56294995342131200 == 0
+ 
+ 
+foo =
+ 
+log(3/(5*((784637716923335095479473677900958302012794430558004314112*x^3)/7846377169233359340928224738967918033662228973 + 1)) + 2/5) == -51582582476138147/112589990684262400
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00025099014419604562619999568411111
+ 
+
+no_populations =
+
+     1
+
+
+negative_loglikelihood_values =
+
+   1.0e+03 *
+
+    2.9094       Inf       Inf       Inf
+
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0303
+
+
+GR_maxconc =
+
+   -1.2790
+
+ 
+eqn =
+ 
+- 2*log(6575244406271753/(9007199254740992*(((9223372036854775808*x)/1095769779569617)^(3034615815132511/1125899906842624) + 1)) + 2431954848469239/9007199254740992) - 188694162802072041/144115188075855872 == 0
+ 
+ 
+foo =
+ 
+log(6575244406271753/(9007199254740992*(((9223372036854775808*x)/1095769779569617)^(3034615815132511/1125899906842624) + 1)) + 2431954848469239/9007199254740992) == -188694162802072041/288230376151711744
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.0001514665136060363881770310211002
+ 
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0303
+
+
+GR_maxconc =
+
+   -1.2790
+
+ 
+eqn =
+ 
+- 2*log(6575244406271753/(9007199254740992*(((9223372036854775808*x)/1095769779569617)^(3034615815132511/1125899906842624) + 1)) + 2431954848469239/9007199254740992) - 188694162802072041/144115188075855872 == 0
+ 
+ 
+foo =
+ 
+log(6575244406271753/(9007199254740992*(((9223372036854775808*x)/1095769779569617)^(3034615815132511/1125899906842624) + 1)) + 2431954848469239/9007199254740992) == -188694162802072041/288230376151711744
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.0001514665136060363881770310211002
+ 
+
+tEnd_inner =
+
+  228.2111
+
+
+no_populations =
+
+     2
+
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.907125e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.327563e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.981236e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.981236e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.175565e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.814868e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.572298e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.572298e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.306615e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.350340e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.283911e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.706205e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.416301e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.157118e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.503592e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.483401e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.216055e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.232049e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.232049e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.232157e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.232049e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.430460e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.430460e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.430460e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.430460e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.418700e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.507028e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.719639e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.909407e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.296854e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.054722e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.780373e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.780373e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.349649e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.776609e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.806875e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.334373e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.020363e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.955862e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.021989e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.013770e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.208894e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.523227e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.525658e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.335317e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.525167e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.829927e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.264648e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.174481e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.995967e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.034688e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.753804e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.102081e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.040649e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.072542e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.534526e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.174922e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.344157e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+
+negative_loglikelihood_values =
+
+   1.0e+03 *
+
+    2.9094    2.8856       Inf       Inf
+
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0301
+
+
+GR_maxconc =
+
+   -1.2724
+
+ 
+eqn =
+ 
+- 2*log(1639624535096321/(2251799813685248*(((73786976294838206464*x)/8677573908857765)^(6022484846243625/2251799813685248) + 1)) + 4897402228711415/18014398509481984) - 187705197068455669/144115188075855872 == 0
+ 
+ 
+foo =
+ 
+log(1639624535096321/(2251799813685248*(((73786976294838206464*x)/8677573908857765)^(6022484846243625/2251799813685248) + 1)) + 4897402228711415/18014398509481984) == -187705197068455669/288230376151711744
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00015002625887538036468410864851352
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0378
+
+
+GR_maxconc =
+
+   -0.0011
+
+ 
+eqn =
+ 
+- 2*log(343636722113459/(9007199254740992*(((36893488147419103232*x)/2817722498547891)^(8849020784849925/2251799813685248) + 1)) + 8663562532627533/9007199254740992) - 2802907741628423/72057594037927936 == 0
+ 
+ 
+foo =
+ 
+log(343636722113459/(9007199254740992*(((36893488147419103232*x)/2817722498547891)^(8849020784849925/2251799813685248) + 1)) + 8663562532627533/9007199254740992) == -2802907741628423/144115188075855872
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.000076753449850667314130336766886204
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0301
+
+
+GR_maxconc =
+
+   -1.2724
+
+ 
+eqn =
+ 
+- 2*log(1639624535096321/(2251799813685248*(((73786976294838206464*x)/8677573908857765)^(6022484846243625/2251799813685248) + 1)) + 4897402228711415/18014398509481984) - 187705197068455669/144115188075855872 == 0
+ 
+ 
+foo =
+ 
+log(1639624535096321/(2251799813685248*(((73786976294838206464*x)/8677573908857765)^(6022484846243625/2251799813685248) + 1)) + 4897402228711415/18014398509481984) == -187705197068455669/288230376151711744
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00015002625887538036468410864851352
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0378
+
+
+GR_maxconc =
+
+   -0.0011
+
+ 
+eqn =
+ 
+- 2*log(343636722113459/(9007199254740992*(((36893488147419103232*x)/2817722498547891)^(8849020784849925/2251799813685248) + 1)) + 8663562532627533/9007199254740992) - 2802907741628423/72057594037927936 == 0
+ 
+ 
+foo =
+ 
+log(343636722113459/(9007199254740992*(((36893488147419103232*x)/2817722498547891)^(8849020784849925/2251799813685248) + 1)) + 8663562532627533/9007199254740992) == -2802907741628423/144115188075855872
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.000076753449850667314130336766886204
+ 
+
+tEnd_inner =
+
+  788.3095
+
+
+no_populations =
+
+     3
+
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.203699e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.827318e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.338898e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.689755e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.677456e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.038811e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.296011e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.038811e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.964712e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.464696e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.464771e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.683074e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.299908e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.755592e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.096864e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.096865e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.971446e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.196623e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.412448e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.342082e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.342082e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.342082e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.574183e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.621058e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.070549e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.157347e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.298733e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.298733e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.614897e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.614897e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.217874e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.166320e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.087811e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.768687e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.225913e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.781083e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.579610e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.052673e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.272998e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.272998e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.272998e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.193241e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.583149e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.908664e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.887325e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.907910e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.599565e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.662537e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.778705e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.022504e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.124962e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.124961e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.124961e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.124960e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.139794e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.124960e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.124960e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.541287e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.511468e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.529442e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.681789e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.001900e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.483175e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.484226e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.292563e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.712978e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.754638e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.718311e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.993454e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.606841e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.606841e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.606842e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.606842e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.530789e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.021899e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.664814e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.664814e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.741319e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.430275e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.833233e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.616085e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.908579e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.424071e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.704698e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.442134e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.670692e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.689633e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.764153e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.764153e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.862056e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.312982e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.311706e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.312977e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.275615e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.122104e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.283145e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.190588e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.342589e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.342589e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.272984e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.272984e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.371252e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.371252e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.624808e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.390416e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.482029e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.533628e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.188290e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.080501e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.541946e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.670396e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.670746e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.746138e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.966099e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.807906e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.966099e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.582916e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.513010e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.508335e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.792931e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.853066e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.312891e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.312892e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.106639e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.950355e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.024446e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.024782e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.843991e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.536696e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.510401e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.465531e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.185789e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.127497e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.006536e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.055323e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.099517e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.845068e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.926536e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.815247e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.388308e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.135190e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.098254e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.951810e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.951810e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.302308e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.050362e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.067561e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.155530e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.415890e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.415890e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.023460e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.278907e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.397991e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.396394e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.398010e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.397698e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.397085e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.397396e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.397250e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.397250e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.397104e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.463558e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455181e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455191e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455008e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455401e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455009e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455029e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455009e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455401e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455029e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.454866e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.454866e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.455239e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.407881e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.407881e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.407881e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.407881e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.414827e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.318137e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.248412e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.248412e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.242260e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.242283e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.248412e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.812662e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.110564e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.480893e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.549324e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.570400e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.770689e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.053164e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.480969e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.115437e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.343723e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.506070e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.852309e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.085747e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.867339e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.241437e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.435609e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.722105e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.013657e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.250968e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+
+negative_loglikelihood_values =
+
+   1.0e+03 *
+
+    2.9094    2.8856    2.8887       Inf
+
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0180
+
+
+GR_maxconc =
+
+    0.0109
+
+ 
+eqn =
+ 
+- 2*log(7938678252895/(1125899906842624*(((576460752303423488*x)/2637203305912847)^(5930591300134121/2251799813685248) + 1)) + 1117961228589729/1125899906842624) - 1019745791590901/144115188075855872 == 0
+ 
+ 
+foo =
+ 
+log(7938678252895/(1125899906842624*(((576460752303423488*x)/2637203305912847)^(5930591300134121/2251799813685248) + 1)) + 1117961228589729/1125899906842624) == -1019745791590901/288230376151711744
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.0045809532263455705168749918904229
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0307
+
+
+GR_maxconc =
+
+   -1.2786
+
+ 
+eqn =
+ 
+- 2*log(821891933385287/(1125899906842624*(((18446744073709551616*x)/8884456046396485)^(2420749954824073/1125899906842624) + 1)) + 304007973457337/1125899906842624) - 94343789943709839/72057594037927936 == 0
+ 
+ 
+foo =
+ 
+log(821891933385287/(1125899906842624*(((18446744073709551616*x)/8884456046396485)^(2420749954824073/1125899906842624) + 1)) + 304007973457337/1125899906842624) == -94343789943709839/144115188075855872
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00065304525897458527061392984439102
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0303
+
+
+GR_maxconc =
+
+   -1.2790
+
+ 
+eqn =
+ 
+- 2*log(3287611516696757/(4503599627370496*(((2305843009213693952*x)/267136725838915)^(6103449783105241/2251799813685248) + 1)) + 1215988110673739/4503599627370496) - 94346448142117545/72057594037927936 == 0
+ 
+ 
+foo =
+ 
+log(3287611516696757/(4503599627370496*(((2305843009213693952*x)/267136725838915)^(6103449783105241/2251799813685248) + 1)) + 1215988110673739/4503599627370496) == -94346448142117545/144115188075855872
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00014750230185602456251813246058724
+ 
+
+tEnd_inner =
+
+   1.6481e+03
+
+
+no_populations =
+
+     4
+
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.828769e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.607548e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.067152e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.803859e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.055106e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.055106e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.055106e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.064797e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.038510e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.521268e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.038510e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.591893e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.888550e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.188693e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.420730e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.332966e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.213533e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.214855e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.223800e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.214856e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.070219e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.055684e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.051656e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.056286e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.056286e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.835549e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.361736e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.383842e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.300886e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.285036e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.053995e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.053995e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.661501e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.150307e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.562028e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.825376e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.823333e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.314688e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.314688e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.314688e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.314688e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.314688e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.029270e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.029270e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.182113e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.769786e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.744536e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.773492e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.978008e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.627273e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.116346e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.027425e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.145022e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.472417e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.121402e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.775961e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.210679e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.339374e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.757204e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.597029e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.239258e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.238020e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.072501e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.176388e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.275852e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.009156e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.807405e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.678966e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.019327e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.926366e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.591601e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.051468e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.460248e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.135078e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.492085e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.486629e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.430159e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.446048e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.446048e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.185602e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.155244e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.779121e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.817800e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.820942e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.554539e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.554204e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.552492e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.459608e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.557977e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.557978e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.713136e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.080640e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.750623e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.320412e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.523145e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.320412e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.803758e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.803758e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.976300e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.127038e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.251292e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.106748e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.287240e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.575438e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.386784e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.074297e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.637073e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.840696e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.779518e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.742518e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.020236e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.021199e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.493538e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.889668e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.084575e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.816426e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.944266e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.167727e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.899618e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.428853e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.644728e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.583789e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.648280e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.077890e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.973529e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.973529e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.565984e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.220139e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.110426e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.375232e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.088630e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.129238e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.349332e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.371467e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.669463e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.503830e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.495335e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.328082e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.976586e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.593390e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.507257e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.048619e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.048612e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.048619e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.048612e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.048612e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.096199e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.048612e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.212397e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.255235e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.255224e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.256531e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.256528e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.255212e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.256524e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.256524e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.256520e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.297045e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.296837e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.296837e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.872366e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.296837e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.401418e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.102173e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.102266e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.798701e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.804318e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.790145e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.259435e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.274589e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.293455e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.294408e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.288798e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.289077e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.229202e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.458859e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.459884e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.151349e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.165047e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.586473e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.621044e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.543274e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.543274e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.555644e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.614513e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.250149e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.235471e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.207138e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.207138e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.409025e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.409025e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.259124e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.309827e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.710939e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.546696e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.828033e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.354083e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.623335e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.408732e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.273058e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.076735e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.852425e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.999920e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.986930e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.619752e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.870640e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.484219e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.354529e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.756011e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.756011e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.197125e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.129120e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.229125e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.214979e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.036911e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.233533e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.041142e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.233533e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.919548e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.922749e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.673251e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.026136e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.660445e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.026136e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.161433e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.048231e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.070971e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  6.513780e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.701480e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.008622e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.065403e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.251847e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.056403e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.529870e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.101692e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.181071e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.225180e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.086876e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.159002e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.735459e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.327175e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.994812e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  4.349247e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.393375e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.583237e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.579838e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.397232e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  9.387978e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  5.547338e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  3.476391e-18.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.487448e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.487448e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.289046e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.586124e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  8.766997e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.066116e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.745081e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  7.745081e-17.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.289346e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.301309e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.289387e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.383997e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  1.599154e-16.] 
+[> In backsolveSys
+  In solveKKTsystem
+  In computeTrialStep
+  In barrier
+  In fmincon (line 834)
+  In articleplot_2_limitations (line 325)
+  In run_limitations (line 92)
+] 
+
+negative_loglikelihood_values =
+
+   1.0e+03 *
+
+    2.9094    2.8856    2.8887    2.8908
+
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0316
+
+
+GR_maxconc =
+
+    0.0287
+
+ 
+eqn =
+ 
+- 2*log(13100362073055/(4503599627370496*(((1152921504606846976*x)/7433422798838001)^(1148301468406447/281474976710656) + 1)) + 4490499265297441/4503599627370496) - 26238904873973/9007199254740992 == 0
+ 
+ 
+foo =
+ 
+log(13100362073055/(4503599627370496*(((1152921504606846976*x)/7433422798838001)^(1148301468406447/281474976710656) + 1)) + 4490499265297441/4503599627370496) == -26238904873973/18014398509481984
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.0064497688331180240843841899997621
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+   2.8821e-04
+
+
+GR_maxconc =
+
+   -1.2806
+
+ 
+eqn =
+ 
+- 2*log(813128849497345/(1125899906842624*(((36893488147419103232*x)/1184728502370817)^(8123766792031561/4503599627370496) + 1)) + 5004336917524465/18014398509481984) - 11813907005691043315/9223372036854775808 == 0
+ 
+ 
+foo =
+ 
+x == (1184728502370817*(18014398509481985*exp(11813907005691043315/18446744073709551616) - 18014398509481984)^(4503599627370496/8123766792031561))/(36893488147419103232*(18014398509481984 - 5004336917524465*exp(11813907005691043315/18446744073709551616))^(4503599627370496/8123766792031561))
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.000045799486670184386177506135429399
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0305
+
+
+GR_maxconc =
+
+   -1.2730
+
+ 
+eqn =
+ 
+- 2*log(205030723813627/(281474976710656*(((73786976294838206464*x)/8059442960328073)^(791397877026231/281474976710656) + 1)) + 4892432185409857/18014398509481984) - 46962881043313909/36028797018963968 == 0
+ 
+ 
+foo =
+ 
+log(205030723813627/(281474976710656*(((73786976294838206464*x)/8059442960328073)^(791397877026231/281474976710656) + 1)) + 4892432185409857/18014398509481984) == -46962881043313909/72057594037927936
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00013771976376495665253507359831753
+ 
+
+initial_guess =
+
+   5.0000e-04
+
+
+GR_minconc =
+
+    0.0266
+
+
+GR_maxconc =
+
+   -0.1015
+
+ 
+eqn =
+ 
+- 2*log(67707427930269/(562949953421312*(((36893488147419103232*x)/6202998515880503)^(7963834345949527/4503599627370496) + 1)) + 495242525491043/562949953421312) - 18467358287729587/144115188075855872 == 0
+ 
+ 
+foo =
+ 
+x == (6202998515880503*2^(5652854400517075/7963834345949527)*(exp(18467358287729587/288230376151711744) - 1)^(4503599627370496/7963834345949527))/(274877906944*(562949953421312 - 495242525491043*exp(18467358287729587/288230376151711744))^(4503599627370496/7963834345949527))
+ 
+
+vpa_range =
+
+    0.0000    0.5000
+
+ 
+gr50_conc =
+ 
+0.00017433609870926951466513342538273
+ 
+
+tEnd_inner =
+
+   2.6411e+03
+
+
+true_mixtures =
+
+    0.9500    0.0500
+
+
+inferred_mixtures =
+
+    0.0016    0.0000    0.9270    0.0714
+
+
+true_gr50values =
+
+   1.0e-03 *
+
+    0.1222    0.2510         0         0
+
+
+inferred_GR50s =
+
+     0     0     0     0
+
+
+negative_loglikelihood_values =
+
+   1.0e+03 *
+
+    2.9094    2.8856    2.8887    2.8908
+
+
+ans = 
+
+    " Parameters 1 pop"
+
+
+ans =
+
+    0.0303
+    0.2700
+    0.0001
+    2.6953
+  268.6323
+
+
+ans = 
+
+    " Parameters 2 pops"
+
+
+ans =
+
+    0.0301
+    0.2719
+    0.0001
+    2.6745
+    0.9800
+    0.0378
+    0.9618
+    0.0001
+    3.9298
+  257.9431
+
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+4536987_7         limit          1                                             01:30:23      0:0 
+4536987_7.b+      batch          1        1   01:29:26          0   01:29:26   01:30:23      0:0 
+4536987_7.e+     extern          1        1   00:00:00          0   00:00:00   01:30:23      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+4536987_7                                                                        
+4536987_7.b+    909672K          0    909672K        0              0          0 
+4536987_7.e+          0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+4536987_7                                                                                             
+4536987_7.b+        8.48M               0          8.48M        0.01M                0          0.01M 
+4536987_7.e+        0.00M               0          0.00M            0                0              0 
+
+Job 4536994 completed at Tue Dec 7 17:21:05 CET 2021
