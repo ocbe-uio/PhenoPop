@@ -1,4 +1,4 @@
-# Online code and data for the article "Phenotypic deconvolution in heterogeneous cancer cell populations using drug screen data"
+# Online code and data for the article "Phenotypic deconvolution in heterogeneous cancer cell populations using drug screenning data"
 Author list: 
 A. Köhn-Luque\*, E. M. Myklebust\*, D. S. Tadele, M. Giliberto, J. Noory, E. Harivel, P. Arsenteva, S.M. Mumenthaler, F. Schjesvold, K. Taskén, J. M. Enserink, K. Leder†, A. Frigessi†, and J. Foo†.
 
