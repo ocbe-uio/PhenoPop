@@ -105,7 +105,7 @@ mixturecolors
 ]
 vlinerange = [0.7, 4.3]
 title = 'Patient MM1420\nMixture fractions                                               GR50 values                       '
-savename = "./article/Fig 3 GR50 pie charts/MM1420.png"
+savename = "./plots/pie_plots/MM1420.png"
 legendcolors = mixturecolors[0:2]
 #make_pie_plot(N_cases, N_inferred_populations, true_mixtures, estimated_mixtures_MM1420, estimated_gr50s_MM1420, true_gr50_for_plotting, mixturecolors, gr50colors_inferred, vlinerange, title, savename, KNOW_TRUTH=False, legendcolors=legendcolors)
 
@@ -139,7 +139,7 @@ mixturecolors
 ]
 vlinerange = [0.7, 4.3]
 title = 'Patient MM3620\nMixture fractions                                               GR50 values                       '
-savename = "./article/Fig 3 GR50 pie charts/MM3620.png"
+savename = "./plots/pie_plots/MM3620.png"
 legendcolors = mixturecolors[0:2]
 #make_pie_plot(N_cases, N_inferred_populations, true_mixtures, estimated_mixtures_MM3620, estimated_gr50s_MM3620, true_gr50_for_plotting, mixturecolors, gr50colors_inferred, vlinerange, title, savename, KNOW_TRUTH=False, legendcolors=legendcolors)
 
@@ -172,7 +172,7 @@ mixturecolors
 ]
 vlinerange = [0.7, 4.3]
 title = 'Patient MM19520\nMixture fractions                                               GR50 values                       '
-savename = "./article/Fig 3 GR50 pie charts/MM19520.png"
+savename = "./plots/pie_plots/MM19520.png"
 legendcolors = mixturecolors[0:2]
 #make_pie_plot(N_cases, N_inferred_populations, true_mixtures, estimated_mixtures_MM19520, estimated_gr50s_MM19520, true_gr50_for_plotting, mixturecolors, gr50colors_inferred, vlinerange, title, savename, KNOW_TRUTH=False, legendcolors=legendcolors)
 # Patient MM130120
@@ -204,7 +204,7 @@ mixturecolors
 ]
 vlinerange = [0.7, 4.3]
 title = 'Patient MM130120\nMixture fractions                                               GR50 values                       '
-savename = "./article/Fig 3 GR50 pie charts/MM130120.png"
+savename = "./plots/pie_plots/MM130120.png"
 legendcolors = mixturecolors[0:2]
 #make_pie_plot(N_cases, N_inferred_populations, true_mixtures, estimated_mixtures_MM130120, estimated_gr50s_MM130120, true_gr50_for_plotting, mixturecolors, gr50colors_inferred, vlinerange, title, savename, KNOW_TRUTH=False, legendcolors=legendcolors)
 
@@ -238,7 +238,7 @@ mixturecolors
 ]
 vlinerange = [0.7, 4.3]
 title = 'Patient MM210819\nMixture fractions                                               GR50 values                       '
-savename = "./article/Fig 3 GR50 pie charts/MM210819.png"
+savename = "./plots/pie_plots/MM210819.png"
 legendcolors = mixturecolors[0:2]
 #make_pie_plot(N_cases, N_inferred_populations, true_mixtures, estimated_mixtures_MM210819, estimated_gr50s_MM210819, true_gr50_for_plotting, mixturecolors, gr50colors_inferred, vlinerange, title, savename, KNOW_TRUTH=False, legendcolors=legendcolors)
 
@@ -286,7 +286,7 @@ gr50colors_inferred = [colordict["MM1420"][0:N_inferred_populations[0]], colordi
 vlinerange = [0.3, N_cases - 0.3]
 title = 'Mixture fractions                      GR50 values                                                         '#
 concticks=[Conc[0], 0.1, 1, 10**1, 10**2, 10**3, 10**4] # position values
-savename = "./article/Fig 3 GR50 pie charts/MM-Venetoclax.png"
+savename = "./plots/pie_plots/MM-Venetoclax.png"
 xlabel=r"$\rm Venetoclax \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.7
 textprops = {'fontsize':16, 'weight' : 'bold'}
@@ -342,7 +342,7 @@ gr50colors_inferred = [colordict["MM1420"][0:N_inferred_populations[0]], colordi
 vlinerange = [0.8, N_cases - 0.8]
 title = '   Mixture fractions                      GR50 values                                                         '#
 concticks=[Conc[0], 0.1, 1, 10**1, 10**2, 10**3] # position values
-savename = "./article/Fig 3 GR50 pie charts/MM-Melflufen.png"
+savename = "./plots/pie_plots/MM-Melflufen.png"
 xlabel=r"$\rm Melflufen \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.7
 textprops = {'fontsize':16, 'weight' : 'bold'}
@@ -395,7 +395,7 @@ gr50colors_inferred = [colordict["MM210819"][0:N_inferred_populations[0]], color
 vlinerange = [0.3, N_cases - 0.3]
 title = '   Mixture fractions                      GR50 values                                                         '#
 concticks=[Conc[0], 1, 10**1, 10**2, 10**3, 10**4] # position values
-savename = "./article/Fig 3 GR50 pie charts/MM-Ixazomib.png"
+savename = "./plots/pie_plots/MM-Ixazomib.png"
 xlabel=r"$\rm Ixazomib \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.7
 textprops = {'fontsize':16, 'weight' : 'bold'}
@@ -448,7 +448,7 @@ gr50colors_inferred = [colordict["MM210819"][0:N_inferred_populations[0]], color
 vlinerange = [0.3, N_cases - 0.3]
 title = '   Mixture fractions                      GR50 values                                                         '#
 concticks=[Conc[0], 0.1, 1, 10**1, 10**2, 10**3, 10**4] # position values
-savename = "./article/Fig 3 GR50 pie charts/MM-Thalidomide.png"
+savename = "./plots/pie_plots/MM-Thalidomide.png"
 xlabel=r"$\rm Thalidomide \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.7
 textprops = {'fontsize':16, 'weight' : 'bold'}
@@ -509,7 +509,7 @@ gr50colors_inferred = [colordict[patname][0:N_inferred_populations[idx]] for idx
 vlinerange = [0.3, N_cases - 0.3]
 title = '   Mixture fractions                      GR50 values                                                         '#
 concticks=[Conc[0], 0.1, 1, 10**1, 10**2, 10**3] # position values
-savename = "./article/Fig 3 GR50 pie charts/MM-Selinexor.png"
+savename = "./plots/pie_plots/MM-Selinexor.png"
 xlabel=r"$\rm Selinexor \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.6
 textprops = {'fontsize':16, 'weight' : 'bold'}
@@ -570,7 +570,7 @@ gr50colors_inferred = [colordict[patname][0:N_inferred_populations[idx]] for idx
 vlinerange = [0.3, N_cases - 0.3]
 title = '   Mixture fractions                      GR50 values                                                         '#
 concticks=[Conc[0], 0.1, 1, 10**1, 10**2, 10**3, 10**4] # position values
-savename = "./article/Fig 3 GR50 pie charts/MM-Dexamethasone.png"
+savename = "./plots/pie_plots/MM-Dexamethasone.png"
 xlabel=r"$\rm Dexamethasone \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.5
 textprops = {'fontsize':16, 'weight' : 'bold'}

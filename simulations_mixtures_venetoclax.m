@@ -8,6 +8,8 @@
 init_cell_numb=1.e13 % initial number of cells
 dose=2; %drug dose used for all patients
 
+Tmax = 100;
+Tmax2 = 3000;
 
 %%  Patient MM1420
 

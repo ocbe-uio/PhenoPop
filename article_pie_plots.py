@@ -86,7 +86,7 @@ vlinerange = [0, N_cases] #[0.3, N_cases + 1 - 0.5]
 title = 'True         Estimated                                          GR50 values                                 \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
 #concticks=np.concatenate(np.array([]), np.array([Conc_dagim[1:len(Conc_dagim)]))
 concticks=[Conc_dagim[0], 1e-1, 1, 1e1]  # position values
-savename = "./article/Fig 3 GR50 pie charts/Dagims_pie.png"
+savename = "./plots/pie_plots/Dagims_pie.png"
 xlabel=r"$\rm Imatinib \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.58
 textprops = {'fontsize':16, 'weight' : 'bold'}
@@ -157,7 +157,7 @@ mixturecolors[0:2]
 vlinerange = [0, N_cases] #[0.3, N_cases - 0.3]
 title = 'True              Estimated                                      GR50 values                               \nmixture             mixture                                                                                           ' #'Mixture fractions                                                                   GR50 values                                                                    '#
 concticks=[Conc_shannon_erlotinib[0], 0.001, 0.01, 0.1, 1, 10] # position values
-savename = "./article/Fig 3 GR50 pie charts/Shannons_pie.png"
+savename = "./plots/pie_plots/Shannons_pie.png"
 xlabel=r"$\rm Erlotinib \enspace concentration \enspace ( \mu M$)"
 pctdistance=1.55
 textprops = {'fontsize':16, 'weight' : 'bold'}
@@ -287,7 +287,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/simulated-noise-"+str(Noise)+".png"
+savename = "./plots/pie_plots/simulated-noise-"+str(Noise)+".png"
 pctdistance=1.59
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -411,7 +411,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/simulated-noise-"+str(Noise)+".png"
+savename = "./plots/pie_plots/simulated-noise-"+str(Noise)+".png"
 pctdistance=1.59
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -534,7 +534,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/simulated-noise-"+str(Noise)+".png"
+savename = "./plots/pie_plots/simulated-noise-"+str(Noise)+".png"
 pctdistance=1.59
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -657,7 +657,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/simulated-noise-"+str(Noise)+".png"
+savename = "./plots/pie_plots/simulated-noise-"+str(Noise)+".png"
 pctdistance=1.59
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -781,7 +781,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/simulated-noise-"+str(Noise)+".png"
+savename = "./plots/pie_plots/simulated-noise-"+str(Noise)+".png"
 pctdistance=1.59
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -910,7 +910,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/simulated-noise-"+str(Noise)+".png"
+savename = "./plots/pie_plots/simulated-noise-"+str(Noise)+".png"
 pctdistance=1.59
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -1049,7 +1049,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/limitations_small_populations.png"
+savename = "./plots/pie_plots/limitations_small_populations.png"
 pctdistance=1.57
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -1189,7 +1189,7 @@ mixturecolors[0:3]
 ]
 vlinerange = [0, N_cases]
 title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-savename = "./article/Fig 3 GR50 pie charts/limitations_close_GR50s.png"
+savename = "./plots/pie_plots/limitations_close_GR50s.png"
 pctdistance=1.59
 textprops = {'fontsize':16, 'weight' : 'bold'}
 figsize = [12,14]
@@ -1300,7 +1300,7 @@ make_pie_plot_limitations_close_GR50s(N_cases, N_inferred_populations, true_mixt
 ##]
 #vlinerange = [0, N_cases]
 #title = 'True         Estimated                                       GR50 values                                    \nmixture        mixture                                                                                                 ' #'Mixture fractions                                                                   GR50 values                                                                    '#
-#savename = "./article/Fig 3 GR50 pie charts/limitations.png"
+#savename = "./plots/pie_plots/limitations.png"
 #pctdistance=1.59
 #textprops = {'fontsize':16, 'weight' : 'bold'}
 #figsize = [12,6]
