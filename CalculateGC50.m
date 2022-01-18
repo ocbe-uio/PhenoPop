@@ -1,4 +1,4 @@
-load('./data/NSCLC-and-BaF3-cell-data/TREATS.mat') %Load data.
+load('./data/NSCLC-data/TREATS.mat') %Load data.
 Conc=[0 0.1 1 10];
 Time=[0 24 48 72];
 %calculate growth rates for monoclonal populations.
