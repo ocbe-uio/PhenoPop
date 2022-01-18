@@ -11,7 +11,7 @@ for patient_index = 1:5
 patient_number = patno_array(patient_index)
 for drugnumber = 1:4 %%%%%%%%%%%%%%%% parfor loop over drugs
 
-load([strcat('./data/real-MM-cellines/negative_loglikelihood_values-', num2str(patient_number), '-drug-', num2str(drugnumber), '.mat')])
+load([strcat('./data/MM-patient_sample_data/negative_loglikelihood_values-', num2str(patient_number), '-drug-', num2str(drugnumber), '.mat')])
 if max(negative_loglikelihood_values) > max_neg_ll
     max_neg_ll = max(negative_loglikelihood_values);
 end
@@ -31,10 +31,10 @@ for patient_index = 1:5
 patient_number = patno_array(patient_index)
 for drugnumber = 1:4 %%%%%%%%%%%%%%%% parfor loop over drugs
 
-%load([strcat('./data/real-MM-cellines/negative_loglikelihood_values-', num2str(patient_number), '-drug-', num2str(drugnumber), '.mat')])
+%load([strcat('./data/MM-patient_sample_data/negative_loglikelihood_values-', num2str(patient_number), '-drug-', num2str(drugnumber), '.mat')])
 num_optim = 3000;
 savestr = strcat(num2str(patient_number), '-drug-', num2str(drugnumber), '-num_optim-', num2str(num_optim));
-load([strcat('./plots/real-MM-cellines/negLL/negative_loglikelihood_and_GR50-', savestr, '.mat')])
+load([strcat('./plots/MM-patient_sample_data/negLL/negative_loglikelihood_and_GR50-', savestr, '.mat')])
 
 % Plot the negative loglikelihood values
 fig = figure;
@@ -45,7 +45,7 @@ ylabel('Negative loglikelihood')
 ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(negative_loglikelihood_values) + max_difference*1.2])
 title(strcat(patient_number, ' drug', {' '}, num2str(drugnumber)))
 plot(1:max_no_populations, negative_loglikelihood_values, '.-k')
-saveas(gcf, [pwd, '/plots/real-MM-cellines/negLL/negative_loglikelihood_values-', num2str(patient_number), '-drug-', num2str(drugnumber), '.png'])
+saveas(gcf, [pwd, '/plots/MM-patient_sample_data/negLL/negative_loglikelihood_values-', num2str(patient_number), '-drug-', num2str(drugnumber), '.png'])
 
 end 
 end 

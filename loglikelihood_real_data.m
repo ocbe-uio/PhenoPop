@@ -47,7 +47,7 @@ PLOT_FINAL_FIT = true
 %average_loglikelihoods = zeros(N_settings, max_no_populations);
 %bic_values = zeros(N_settings, max_no_populations);
 
-S = load(strcat("./data/real-MM-cellines/", patient_number, ".mat"));
+S = load(strcat("./data/MM-patient_sample_data/", patient_number, ".mat"));
 Conc1 = S.Conc1;
 Conc2 = S.Conc2;
 Conc3 = S.Conc3;
@@ -148,7 +148,7 @@ if PLOT_DATA
     xlim([min_x, max_x])
     legend(tlabels)
     title([strcat(newline, patient_number, ' drug ', num2str(drugnumber)) 'Cell counts' '1 dot per replicate, dose 0 included'])
-    saveas(gcf, [pwd, '/plots/real-MM-cellines/', num2str(patient_number), '/logl-data-', num2str(patient_number), '-drug-', num2str(drugnumber), '.png'])
+    saveas(gcf, [pwd, '/plots/MM-patient_sample_data/', num2str(patient_number), '/logl-data-', num2str(patient_number), '-drug-', num2str(drugnumber), '.png'])
 end % if PLOT_DATA
 
 % Fit with 1,2,3,+++ subpopulations
@@ -292,7 +292,7 @@ for ii = 1:max_no_populations
         %    xline(Conc(c_index), "k",'HandleVisibility','off')
         %end
         legend([inferred_legends],'Location','southwest')
-        saveas(gcf, [pwd, '/plots/real-MM-cellines/', num2str(patient_number), '/logl-inferred_populations-', num2str(patient_number), '-drug-', num2str(drugnumber), '-no-pop-', num2str(no_populations), '-num_optim-', num2str(num_optim), '.png'])
+        saveas(gcf, [pwd, '/plots/MM-patient_sample_data/', num2str(patient_number), '/logl-inferred_populations-', num2str(patient_number), '-drug-', num2str(drugnumber), '-no-pop-', num2str(no_populations), '-num_optim-', num2str(num_optim), '.png'])
     end % if PLOT_FINAL_FIT
     tEnd_inner = toc(tStart_inner);
 end % of inference for ii populations loop
@@ -307,7 +307,7 @@ squeeze(x_finals_temp(1,2,1:11))
 savestr = strcat(num2str(patient_number), '-drug-', num2str(drugnumber), '-num_optim-', num2str(num_optim));
 
 % Save data
-save([strcat('./plots/real-MM-cellines/negLL/negative_loglikelihood_and_GR50-', savestr, '.mat')], 'negative_loglikelihood_values', 'x_finals_temp', 'inferred_GR50s')
+save([strcat('./plots/MM-patient_sample_data/negLL/negative_loglikelihood_and_GR50-', savestr, '.mat')], 'negative_loglikelihood_values', 'x_finals_temp', 'inferred_GR50s')
 
 % Plot the negative loglikelihood values
 fig = figure;
@@ -316,7 +316,7 @@ xlabel('Number of inferred populations')
 ylabel('Negative loglikelihood')
 title(strcat(patient_number, ' drug ', num2str(drugnumber)))
 plot(1:max_no_populations, negative_loglikelihood_values, '.-k')
-saveas(gcf, [pwd, '/plots/real-MM-cellines/', num2str(patient_number), '/negative_loglikelihood_values-', savestr, '.png'])
+saveas(gcf, [pwd, '/plots/MM-patient_sample_data/', num2str(patient_number), '/negative_loglikelihood_values-', savestr, '.png'])
 
 tEnd = toc(tStart)
 end %%%% drug number loop

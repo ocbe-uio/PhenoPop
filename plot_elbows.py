@@ -76,7 +76,7 @@ for N_true_populations in [1,2,3]:
         axes[N_true_populations-1, caseno-1].set_ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(negative_loglikelihood_values) + max_difference*1.2])
         axes[N_true_populations-1, caseno-1].legend()
 plt.tight_layout()
-plt.savefig("./article/elbowplots/elbow-noise-" + str(Noise) + ".png") #, bbox_inches="tight")
+plt.savefig("./plots/elbowplots/elbow-noise-" + str(Noise) + ".png") #, bbox_inches="tight")
 #plt.show()
 
 if saved_gr50s_at_runtime:
@@ -216,7 +216,7 @@ for caseno in [1,2,3,4,5,6,7,8,9]:
     #axes[plotno-1].set_ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(negative_loglikelihood_values) + max_difference*1.2])
     #axes[plotno-1].legend()
 plt.tight_layout()
-plt.savefig("./article/elbowplots/elbow-limitations-small-populations.pdf") #, bbox_inches="tight")
+plt.savefig("./plots/elbowplots/elbow-limitations-small-populations.pdf") #, bbox_inches="tight")
 #plt.show()
 
 ######################################## Limitations close GR50 values ########################################
@@ -305,7 +305,7 @@ for caseno in [3,2,1,6,5,4,9,8,7]: #[1,2,3,4,5,6,7,8,9]:
     #axes[plotno-1].set_ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(negative_loglikelihood_values) + max_difference*1.2])
     #axes[plotno-1].legend()
 plt.tight_layout()
-plt.savefig("./article/elbowplots/elbow-limitations-close-GR50s.pdf") #, bbox_inches="tight")
+plt.savefig("./plots/elbowplots/elbow-limitations-close-GR50s.pdf") #, bbox_inches="tight")
 #plt.show()
 
 # Old version limitations #############################################
@@ -358,7 +358,7 @@ plt.savefig("./article/elbowplots/elbow-limitations-close-GR50s.pdf") #, bbox_in
 #    axes[plotno-1].set_ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(negative_loglikelihood_values) + max_difference*1.2])
 #    axes[plotno-1].legend()
 #plt.tight_layout()
-#plt.savefig("./article/elbowplots/elbow-limitations.png") #, bbox_inches="tight")
+#plt.savefig("./plots/elbowplots/elbow-limitations.png") #, bbox_inches="tight")
 ##plt.show()
 
 
@@ -410,7 +410,7 @@ axes[3].set_ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(n
 axes[3].legend()
 
 plt.tight_layout()
-plt.savefig("./article/elbowplots/elbow-shannon.png") #, bbox_inches="tight")
+plt.savefig("./plots/elbowplots/elbow-shannon.png") #, bbox_inches="tight")
 plt.show()
 
 
@@ -490,7 +490,7 @@ axes[4].set_ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(n
 axes[4].legend()
 
 plt.tight_layout()
-plt.savefig("./article/elbowplots/elbow-dagim.png") #, bbox_inches="tight")
+plt.savefig("./plots/elbowplots/elbow-dagim.png") #, bbox_inches="tight")
 plt.show()
 
 ######################################## Real MM patients ########################################
@@ -505,7 +505,7 @@ max_difference = 0
 for patient_index in [1,2,3,4,5]:
     patient_number = patno_array[patient_index-1]
     for drugnumber in [1,2,3,4]:
-        filename = './data/real-MM-cellines/negative_loglikelihood_values-' + str(patient_number) + '-drug-' + str(drugnumber) + '.mat'
+        filename = './data/MM-patient_sample_data/negative_loglikelihood_values-' + str(patient_number) + '-drug-' + str(drugnumber) + '.mat'
         mat_contents = scipy.io.loadmat(filename)
         negative_loglikelihood_values = mat_contents['negative_loglikelihood_values'][0]
         if max(negative_loglikelihood_values) > max_neg_ll:
@@ -532,7 +532,7 @@ for patient_index in [1,2,3,4,5]:
     elif patient_number == "MM1420":
         drug_list = ["Venetoclax", "Melflufen", "Selinexor", "Dexamethasone"]
     for drugnumber in [1,2,3,4]:
-        filename = './data/real-MM-cellines/negative_loglikelihood_values-' + str(patient_number) + '-drug-' + str(drugnumber) + '.mat'
+        filename = './data/MM-patient_sample_data/negative_loglikelihood_values-' + str(patient_number) + '-drug-' + str(drugnumber) + '.mat'
         mat_contents = scipy.io.loadmat(filename)
         negative_loglikelihood_values = mat_contents['negative_loglikelihood_values'][0]
         labell = drug_list[drugnumber-1]
@@ -547,6 +547,6 @@ for patient_index in [1,2,3,4,5]:
         axes[drugnumber-1, patient_index-1].set_ylim([min(negative_loglikelihood_values) - 0.1*max_difference, min(negative_loglikelihood_values) + max_difference*1.2])
         axes[drugnumber-1, patient_index-1].legend()
 plt.tight_layout()
-plt.savefig("./article/elbowplots/elbow-MM-patients.png") #, bbox_inches="tight")
+plt.savefig("./plots/elbowplots/elbow-MM-patients.png") #, bbox_inches="tight")
 #plt.show()
 

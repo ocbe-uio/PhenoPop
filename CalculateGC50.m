@@ -1,4 +1,4 @@
-load('./data/NSCLC-data/TREATS.mat') %Load data.
+load('./data/NSCLC-cell_line_data/TREATS.mat') %Load data.
 Conc=[0 0.1 1 10];
 Time=[0 24 48 72];
 %calculate growth rates for monoclonal populations.
