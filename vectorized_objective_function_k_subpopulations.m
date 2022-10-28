@@ -43,10 +43,7 @@ function [L, gradL] = vectorized_objective_function_k_subpopulations(Params,no_p
     resid_term = sum_squared_resid ./ (2*sig^2);
 
     % L is the negative normal loglikelihood
-    L = resid_term + NC*(NT-1)*NR*log(sig);
-    %L = resid_term/(NC*(NT-1)*NR) + log(sig);
-
-    % lsqnonlin: 
-    %L = reshape(resid, [NC*(NT-1)*NR,1,1]);
+    % (resid_term already includes division by 2)
+    L = resid_term + (NC*(NT-1)*NR)/2*log(2*pi*sig^2);
 
 end

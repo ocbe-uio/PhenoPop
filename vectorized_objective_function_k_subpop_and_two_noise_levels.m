@@ -54,7 +54,8 @@ function [L, gradL] = vectorized_objective_function_k_subpop_and_two_noise_level
     resid_sum = sum(resid_terms, 'all', 'omitnan'); % size 1
 
     % L is the negative normal loglikelihood
-    L = resid_sum + N_hi*log(sigH) + N_low*log(sigL);
+    % (resid_sum includes division by 2)
+    L = resid_sum + (N_hi/2)*log(2*pi*sigH^2) + (N_low/2)*log(2*pi*sigL^2);
     
 
     %% Removed:

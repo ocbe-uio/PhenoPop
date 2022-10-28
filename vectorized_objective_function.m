@@ -41,8 +41,7 @@ function [L, gradL] = vectorized_objective_function(Params,DATA,concvec,timevec,
     resid_term = sum_squared_resid ./ (2*sig^2);
 
     % L is the negative normal loglikelihood
-    L = resid_term + NC*(NT-1)*NR*log(sig);
-    %L = resid_term/(NC*(NT-1)*NR) + log(sig);
+    L = resid_term + (NC*(NT-1)*NR)/2*log(2*pi*sig^2);
 
     % lsqnonlin: 
     %L = reshape(resid, [NC*(NT-1)*NR,1,1]);

@@ -30,7 +30,7 @@ function L=mono_vectorized_objective_function(Params,DATA,concvec,timevec,NR)
     %pred_data(:,:,2:NT)
     sum_squared_resid = sum(resid.^2, 'all', 'omitnan'); % size 1
     resid_term = sum_squared_resid ./ (2*sig^2);
-    L = resid_term + NC*NT*NR*log(sig);
+    L = resid_term + (NC*(NT-1)*NR)/2*log(2*pi*sig^2);
     end
     
     
