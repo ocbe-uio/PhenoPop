@@ -1,5 +1,6 @@
 # Online repository for the PhenoPop method. 
-See "example.m" or the Wiki pages for an example on how to run the method. 
+The PhenoPop method is available through the function "PhenoPop(experiment_name, NR, Concentration_array, Time_array, datafile)". 
+See "example.m" or the Wiki pages for specifications on how to run the method. 
 
 The Wiki pages also contain documentation on how to reproduce the figures in the article "Phenotypic deconvolution in heterogeneous cancer cell populations using drug screening data"
 
