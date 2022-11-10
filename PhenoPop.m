@@ -85,8 +85,6 @@ function [x_finals_temp, f_vals_temp, negative_loglikelihood_values, AIC_values,
     lower_limit_E_ratio = 1; % The smallest ratio (E_i / E_j) among inferred E parameters must be greater than this.
     USE_E_THRESHOLD = false;
     INFER_SIGMA = true; % If true, sigma is estimated by MLE. If false, the true value is given.
-    PLOT_DATA = true;
-    PLOT_FINAL_FIT = PLOT_DATA;
     colors_estimated = [
         0.9570 0.6640 0.2578
         0.105468750000000   0.617187500000000   0.464843750000000
@@ -259,39 +257,6 @@ function [x_finals_temp, f_vals_temp, negative_loglikelihood_values, AIC_values,
         inferred_mixtures = [inferred_mixtures, 1-sum(inferred_mixtures)];
         sorted_inferred_parameters = squeeze(x_finals_temp(1, no_populations,1:5*no_populations))';
         inferred_GR50s = zeros(1, no_populations);
-        if true %PLOT_FINAL_FIT
-            plot_N_c = 1000;
-            x = zeros(1,plot_N_c);
-            x(2:plot_N_c) = logspace(log10(min_x),log10(max_x),(plot_N_c-1));    
-            % Plot all the inferred cell lines 
-            newcolors0 = colors_estimated(1:no_populations,:);
-            fig = figure;
-            colororder(newcolors0);
-            %movegui(fig,[1275 100]); % x y positions of bottom left corner
-            h = axes;
-            set(h,'xscale','log')
-            hold on
-            for jj=1:no_populations
-                inferred_parameters = sorted_inferred_parameters(5*jj-4:5*jj-1);
-                y_inferred = ratefunc(inferred_parameters', x);
-                semilogx(x,y_inferred, '--', 'LineWidth', 3)
-                inferred_GR50s(jj) = find_gr50(inferred_parameters, Conc);
-            end
-            ylabel('Growth rate')
-            xlabel('Drug concentration')  
-            title([strcat(newline, experiment_name) strcat("Inferred growth rates")])
-            inferred_legends = {};
-            for jj = 1:no_populations
-                str = strjoin({'Clone ' num2str(jj) ' Mixture ' num2str(inferred_mixtures(jj), '%.2f') ' GR50 ' num2str(inferred_GR50s(jj), '%.2e') });
-                inferred_legends = [inferred_legends str];
-            end
-            % These concentration placements are not informative; Look at data plotting
-            %for c_index=2:N_c
-            %    xline(Conc(c_index), "k",'HandleVisibility','off')
-            %end
-            legend([inferred_legends],'Location','southwest')
-            saveas(gcf, [pwd, '/logl-inferred_populations-', num2str(experiment_name), '-no-pop-', num2str(no_populations), '-num_optim-', num2str(num_optim), '.png'])
-        end % if true %PLOT_FINAL_FIT
         all_gr50_values(ii,1:no_populations) = inferred_GR50s;
         tEnd_inner = toc(tStart_inner);
     end % of inference for ii populations loop
