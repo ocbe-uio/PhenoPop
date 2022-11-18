@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  Script to simulate treatments with Dexamethasone, Selexinor, Meflufen
+%  Script to simulate treatments with Dexamethasone, Selexinor, Melflufen
 %  and Venetoclax in three MM patient (MM1420,MM195,MM36) using the
 %  clones and corresponding drug sensitivity estimated by DECIPHER.
 %
@@ -153,7 +153,7 @@ title('patient MM36')
 set(gcf,'color','w');
 sgtitle('Selinexor')
 
-%%%%%%%%%%%%%%%%%%%%%%%% Meflufen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% Melflufen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Run Simulations
 dose_meflu=0.5; %simulated dexamethasone dose used for all three patients
 [tMM1420,x_solMM1420,tMM195,x_solMM195,tMM36,x_solMM36]=simulations_mixtures_meflufen(dose_dexa);
@@ -223,7 +223,7 @@ ylabel('cell number')
 title('patient MM36')
 
 set(gcf,'color','w');
-sgtitle('Meflufen')
+sgtitle('Melflufen')
 
 %%%%%%%%%%%%%%%%%%%%%%%% Venetoclax %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Run Simulations
