@@ -1,5 +1,7 @@
 # Online repository for the PhenoPop method. 
-The PhenoPop method is available in the "Phenopop_inference" folder through the function "PhenoPop(experiment_name, NR, Concentration_array, Time_array, datafile)". 
+Phenotypic deconvolution in heterogeneous cancer cell populations using drug screen data. Matlab implementation of the method described in https://www.biorxiv.org/content/10.1101/2022.01.17.476604v2. Also includes the necessary code and data to reproduce the results and figures in the publication. A Python package of the method is available at https://github.com/ocbe-uio/pyPhenoPop.
+
+The PhenoPop method is available as in the "Phenopop_inference" folder as the function "PhenoPop(experiment_name, NR, Concentration_array, Time_array, datafile)". 
 See "example.m" in the "Phenopop_inference" folder or the Wiki pages for specifications on how to run the method. 
 
 The Wiki pages also contain documentation on how to reproduce the figures in the article "Phenotypic deconvolution in heterogeneous cancer cell populations using drug screening data"
