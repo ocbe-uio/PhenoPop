@@ -3,6 +3,8 @@
 
 Phenotypic deconvolution in heterogeneous cancer cell populations using drug screen data. Matlab implementation of the method described in https://www.biorxiv.org/content/10.1101/2022.01.17.476604v2. Also includes the necessary code and data to reproduce the results and figures in the publication. A Python package of the method is available at https://github.com/ocbe-uio/pyPhenoPop.
 
+The required Matlab version is Matlab R2020b or newer. We are aware that the Matlab function **fmincon** from the Optimization Toolbox may cause runtime errors in versions newer than Matlab R2020b. To resolve this error, we suggest reinstalling the Optimization Toolbox and trying again (https://se.mathworks.com/matlabcentral/answers/473469-error-in-fmincon-undefined-getipoptions). 
+
 The PhenoPop method is available as in the "Phenopop_inference" folder as the function "PhenoPop(experiment_name, NR, Concentration_array, Time_array, datafile)". 
 See "example.m" in the "Phenopop_inference" folder or the Wiki pages for specifications on how to run the method. 
 
