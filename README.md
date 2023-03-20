@@ -1,14 +1,14 @@
 # Online repository for the PhenoPop method. 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7334379.svg)](https://doi.org/10.5281/zenodo.7334379)
 
-Phenotypic deconvolution in heterogeneous cancer cell populations using drug screen data. Matlab implementation of the method described in https://www.biorxiv.org/content/10.1101/2022.01.17.476604v2. Also includes the necessary code and data to reproduce the results and figures in the publication. A Python package of the method is available at https://github.com/ocbe-uio/pyPhenoPop.
+Phenotypic deconvolution in heterogeneous cancer cell populations using drug screen data. Matlab implementation of the method described in https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00028-0. Also includes the necessary code and data to reproduce the results and figures in the publication. A Python package of the method is available at https://github.com/ocbe-uio/pyPhenoPop.
 
 The required Matlab version is Matlab R2020b or newer. We are aware that the Matlab function **fmincon** from the Optimization Toolbox may cause runtime errors in versions newer than Matlab R2020b. To resolve this error, we suggest reinstalling the Optimization Toolbox and trying again (https://se.mathworks.com/matlabcentral/answers/473469-error-in-fmincon-undefined-getipoptions). 
 
 The PhenoPop method is available as in the "Phenopop_inference" folder as the function "PhenoPop(experiment_name, NR, Concentration_array, Time_array, datafile)". 
 See "example.m" in the "Phenopop_inference" folder or the Wiki pages for specifications on how to run the method. 
 
-The Wiki pages also contain documentation on how to reproduce the figures in the article "Phenotypic deconvolution in heterogeneous cancer cell populations using drug screening data"
+The Wiki pages also contain documentation on how to reproduce the figures in the article "Phenotypic deconvolution in heterogeneous cancer cell populations using drug screening data", published in Cell Reports Methods in March 2023: https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00028-0
 
 Author list: 
 A. Köhn-Luque\*, E. M. Myklebust\*, D. S. Tadele, M. Giliberto, J. Noory, E. Harivel, P. Arsenteva, S.M. Mumenthaler, F. Schjesvold, K. Taskén, J. M. Enserink, K. Leder†, A. Frigessi†, and J. Foo†.
